@@ -5,13 +5,15 @@ A machine learning project that predicts student depression risk using survey-ba
 ---
 
 ## 📌 Overview
-This project applies supervised machine learning techniques to analyze student lifestyle, academic, and financial factors to predict the likelihood of depression. The goal is to support early identification of at-risk students and enable data-driven mental health interventions.
+This project applies supervised machine learning techniques to analyze student lifestyle, academic, and financial factors to predict the likelihood of depression. 
+
+The objective is to support **early identification of at-risk students** and enable **data-driven mental health interventions**.
 
 ---
 
 ## ⚙️ Tech Stack
 - **Programming:** Python  
-- **Libraries:** Pandas, NumPy, Scikit-learn, LightGBM  
+- **Libraries:** Pandas, NumPy, Scikit-learn, LightGBM, SHAP  
 - **Techniques:** Data preprocessing, feature engineering, model evaluation  
 - **Imbalance Handling:** BorderlineSMOTE  
 
@@ -20,14 +22,20 @@ This project applies supervised machine learning techniques to analyze student l
 ## 📊 Methodology
 
 ### 1. Data Preparation
-- Cleaned and preprocessed survey dataset  
-- Handled missing values and encoded categorical variables  
+- Cleaned and preprocessed survey dataset
+- Handled missing values and encoded categorical variables
+- Applied feature scaling where necessary 
 
 ### 2. Exploratory Data Analysis (EDA)
-- Analyzed distributions and relationships between variables  
-- Identified potential predictors of depression risk  
+- Analyzed distributions of key variables
+- Identified relationships between features and depression risk
+- Highlighted important patterns in academic and financial stress  
 
-### 3. Model Development
+### 3. Feature Engineering
+- Selected relevant predictors for modeling
+- Transformed categorical variables for model compatibility
+
+### 4. Model Development
 - Implemented classification models:
   - Logistic Regression  
   - K-Nearest Neighbors (KNN)  
@@ -35,10 +43,12 @@ This project applies supervised machine learning techniques to analyze student l
   - Gradient Boosting  
   - LightGBM  
 
-### 4. Model Evaluation
+### 5. Model Evaluation
 - Evaluated models using:
   - Recall (priority metric for detecting high-risk cases)  
-  - ROC-AUC  
+  - ROC-AUC
+ 
+👉 Recall was prioritized to minimize false negatives, ensuring high-risk individuals are not missed.
 
 ### 5. Model Optimization
 - Applied hyperparameter tuning  
@@ -47,17 +57,27 @@ This project applies supervised machine learning techniques to analyze student l
 ---
 
 ## 🏆 Results
-- **Best Model:** Logistic Regression (with BorderlineSMOTE + tuning)  
+- **Best Model:** Logistic Regression
+- **Enhancements:** BorderlineSMOTE + Hyperparameter tuning
 - **Recall:** 88.90%  
 - **ROC-AUC:** 91.75%
 
-👉 Recall was prioritized to minimize false negatives, ensuring high-risk individuals are not missed.
+👉 Logistic Regression outperformed other models after optimization and class imbalance handling.
+
+---
+
+## 🔍 Model Interpretability
+Used **SHAP (SHapley Additive exPlanations)** to interpret model predictions
+Identified key drivers of depression risk:
+- Academic Pressure
+- Financial Stress
 
 ---
 
 ## 🔍 Key Insights
-- Academic pressure and financial stress are the strongest predictors of depression risk  
-- Prioritizing recall improves identification of high-risk individuals  
+- Students experiencing high academic pressure and financial stress are significantly more likely to be at risk
+- Handling class imbalance (SMOTE) improved model performance
+- Prioritizing recall ensures better identification of vulnerable individuals 
 
 ---
 
