@@ -66,7 +66,7 @@ This project applies supervised machine learning techniques to analyze student l
 ### Model Performance
 
 
-With the help of hyperparameter tuning and resampling (BorderlineSMOTE), recall improves to 88.90% for the holdout data.
+With the help of hyperparameter tuning and resampling (BorderlineSMOTE), recall improves to **88.90%** for the holdout data.
 
 <img width="418" height="66" alt="Screenshot 2026-04-05 at 11 14 02 PM" src="https://github.com/user-attachments/assets/828e09a5-197d-4ff1-bc15-459d6a4f88b3" />
 
