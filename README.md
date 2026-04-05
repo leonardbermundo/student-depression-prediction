@@ -64,7 +64,28 @@ This project applies supervised machine learning techniques to analyze student l
 ## 📊 Visualizations
 
 ### Model Performance
+
+
+With the help of hypertuning parameters and resampling (BorderlineSMOTE), recall improves to 88.90% for the holdout data.
+
+<img width="418" height="66" alt="Screenshot 2026-04-05 at 11 14 02 PM" src="https://github.com/user-attachments/assets/828e09a5-197d-4ff1-bc15-459d6a4f88b3" />
+
+
+#### Accuracy, Recall, and ROC-AUC (for holdout data)
+
+<img width="131" height="113" alt="Screenshot 2026-04-05 at 11 17 39 PM" src="https://github.com/user-attachments/assets/843f8d8d-08cc-40bf-8889-298a5f903c57" />
+
+
+#### Confusion Matrix
+
+Out of 991 depressed students, **our model correctly identified 881**.
+
 <img width="637" height="470" alt="image" src="https://github.com/user-attachments/assets/b955246a-61fa-46f2-a888-c1c1a17aabe2" />
+
+
+#### Model Discrimination Performance
+
+The model correctly identifies at-risk students from non at-risk students **91.75%** of the time.
 
 <img width="606" height="590" alt="image" src="https://github.com/user-attachments/assets/ed2e83d3-e198-4b37-afae-bb18ba4f07ee" />
 
