@@ -87,7 +87,12 @@ Identified key drivers of depression risk:
 ## 🔍 Key Insights
 - Students experiencing high academic pressure and financial stress are significantly more likely to be at risk
 - Handling class imbalance (SMOTE) improved model performance
-- Prioritizing recall ensures better identification of vulnerable individuals 
+- Prioritizing recall ensures better identification of vulnerable individuals
+
+--- 
+
+## 💡 Recommendations
+- As a call to action, we are recommending for students to promote lifestyle & well-being through structured routines, implement campus wellness programs, improve access to counseling services and peer support groups, and to encourage healthy coping mechanisms. 
 
 ---
 
