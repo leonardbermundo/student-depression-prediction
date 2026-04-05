@@ -66,14 +66,12 @@ This project applies supervised machine learning techniques to analyze student l
 ### Model Performance
 <img width="637" height="470" alt="image" src="https://github.com/user-attachments/assets/b955246a-61fa-46f2-a888-c1c1a17aabe2" />
 
-<img width="903" height="889" alt="image" src="https://github.com/user-attachments/assets/33b04baf-5121-4bf1-bda8-d9f0d52667e5" />
+<img width="606" height="590" alt="image" src="https://github.com/user-attachments/assets/ed2e83d3-e198-4b37-afae-bb18ba4f07ee" />
 
 
 ### SHAP Summary Plot
 <img width="790" height="540" alt="image" src="https://github.com/user-attachments/assets/03d1333e-c630-469b-bcf6-d291f1cb4f51" />
 
 <img width="771" height="540" alt="image" src="https://github.com/user-attachments/assets/ea4f9339-5dd6-43c8-90ff-6b898f45d568" />
-
-
 
 ---
