@@ -50,7 +50,7 @@ The objective is to support **early identification of at-risk students** and ena
  
 👉 Recall was prioritized to minimize false negatives, ensuring high-risk individuals are not missed.
 
-### 5. Model Optimization
+### 6. Model Optimization
 - Applied hyperparameter tuning  
 - Addressed class imbalance using BorderlineSMOTE  
 
