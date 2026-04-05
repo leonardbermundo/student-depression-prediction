@@ -11,6 +11,16 @@ The objective is to support **early identification of at-risk students** and ena
 
 ---
 
+## 📊 Dataset
+
+The dataset used in this project was sourced from:
+
+- [Kaggle - Student Depression Dataset](https://www.kaggle.com/datasets/hopesb/student-depression-dataset)
+
+It includes demographic, academic, and lifestyle-related features such as academic pressure, financial stress, and study satisfaction. The target variable indicates whether a student is at risk of depression.
+
+--
+
 ## ⚙️ Tech Stack
 - **Programming:** Python  
 - **Libraries:** Pandas, NumPy, Scikit-learn, LightGBM, SHAP  
