@@ -70,6 +70,10 @@ This project applies supervised machine learning techniques to analyze student l
 
 
 ### SHAP Summary Plot
-![SHAP Summary](docs/images/shap_summary.png)
+<img width="790" height="540" alt="image" src="https://github.com/user-attachments/assets/03d1333e-c630-469b-bcf6-d291f1cb4f51" />
+
+<img width="771" height="540" alt="image" src="https://github.com/user-attachments/assets/ea4f9339-5dd6-43c8-90ff-6b898f45d568" />
+
+
 
 ---
